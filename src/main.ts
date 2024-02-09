@@ -8,6 +8,9 @@ async function bootstrap() {
 		new FastifyAdapter(),
 	);
 
+	// enable cors
+	app.enableCors();
+
 	// start the server
 	const port = +process.env.PORT || 3000;
 	const address = "0.0.0.0";

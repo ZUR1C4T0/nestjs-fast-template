@@ -7,12 +7,11 @@
   "license": "MIT",
   "scripts": {
     "build": "nest build",
-    "format": "biome format --write ./src",
     "start": "nest start",
     "dev": "nest start --watch",
     "debug": "nest start --debug --watch",
     "prod": "node dist/main",
-    "lint": "biome lint --apply ./src"
+    "lint": "biome check --apply ./src"
   },
   "dependencies": {
     "@nestjs/common": "^10.3.3",

@@ -11,3 +11,10 @@ dist
 # Ignore version control files
 .git
 .gitignore
+
+# Additional common ignores
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

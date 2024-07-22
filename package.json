@@ -1,6 +1,6 @@
 {
   "name": "nestjs-fast-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NestJS template for fast start (Testingless) with fast tecnologies (Fastify, SWC, BiomeJS)",
   "author": "Ivan Ulloque (@ZUR1C4T0)",
   "private": true,

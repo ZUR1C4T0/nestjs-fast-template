@@ -1,6 +1,6 @@
 {
   "name": "nestjs-fast-template",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NestJS template for fast start (Testingless) with fast tecnologies (Fastify, SWC, BiomeJS)",
   "author": "Ivan Ulloque (@ZUR1C4T0)",
   "private": true,
@@ -14,26 +14,26 @@
     "lint": "biome check --write src/"
   },
   "engines": {
-    "node": ">=20",
+    "node": ">=24",
     "pnpm": ">=10"
   },
   "dependencies": {
-    "@nestjs/common": "^11.1.11",
-    "@nestjs/config": "^4.0.2",
-    "@nestjs/core": "^11.1.11",
-    "@nestjs/platform-fastify": "^11.1.11",
+    "@nestjs/common": "^11.1.13",
+    "@nestjs/config": "^4.0.3",
+    "@nestjs/core": "^11.1.13",
+    "@nestjs/platform-fastify": "^11.1.13",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.3",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.10",
-    "@nestjs/cli": "^11.0.14",
+    "@biomejs/biome": "^2.3.14",
+    "@nestjs/cli": "^11.0.16",
     "@nestjs/schematics": "^11.0.9",
-    "@swc/cli": "^0.7.9",
-    "@swc/core": "^1.15.8",
-    "@types/node": "^24.10.4",
+    "@swc/cli": "^0.7.10",
+    "@swc/core": "^1.15.11",
+    "@types/node": "^24.10.13",
     "source-map-support": "^0.5.21",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.3"
